@@ -1,0 +1,46 @@
+header.css
+ .header{
+	 width:100%;
+	 background-color:rgba(0,0,0,.1);
+
+	 }
+	 .header ul{
+	 text-align:center;
+	 }
+	 .header ul li{
+	 list-style:none;
+	 display:inline-block;
+	 }
+	 .header ul li a{
+	 display:block;
+	 text-decoration:none;
+	 text-transform:uppercase;
+	 color:#fff;
+	 font-size:20px;
+	 font-family:'raleway',sans-serif;
+	 letter-spacing:1px;
+	 font-weight:600;
+	 padding:1em;
+	 transform:translate(-0%,-100%);
+
+	 }
+	 .header ul li a:hover{
+	 background-color:#90EE90;
+	 }
+	 .header ul li img{
+	 opacity:0.2;
+	 margin-top:20px;
+	 }
+
+
+@media screen and (max-width: 500px) {
+  .header ul li a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+}
